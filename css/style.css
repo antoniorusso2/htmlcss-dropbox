@@ -31,6 +31,12 @@ a{
   background-color: var(--btn-bg-color);
 }
 
+/* container sizes [big - sm] */
+.container.big{
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* header - main - footer main rules */
 header{
   padding: 30px 18px;
@@ -50,7 +56,47 @@ header{
   vertical-align: middle;
 }
 
+/* hero section */
+.hero{
+  padding-top: 30px;
+  background-color: #B4D0E7;
+}
+.hero .row{
+  display: flex;
+  align-content: center;
+}
 
+.big-title{
+  font-size: 50px;
+}
+.col-100{
+  width: 100%;
+  margin-bottom: 60px;
+}
+.col-65{
+  width: 65%;
+}
+.col-65 img{
+  max-width: 100%;
+}
+.col-35{
+  width: 35%;
+}
 
 
 /* !DEBUG */
+.debug .container.container.big{
+  border: 1px solid black;
+  padding-top: 35px;
+}
+
+.debug .col-100{
+  background-color: antiquewhite;
+}
+.debug .col-35{
+  background-color: cadetblue;
+}
+
+.debug .col-65{
+  background-color: cornflowerblue;
+}

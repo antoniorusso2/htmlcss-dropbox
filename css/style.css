@@ -30,16 +30,36 @@ a{
   padding: 10px 18px;
   background-color: var(--btn-bg-color);
 }
-.btn.free-trial{
+.btn-marg{
   margin: 35px 0;
   display: inline-block;
 }
 
+/* col width */
+.col-100{
+  width: 100%;
+}
+.col-65{
+  width: 65%;
+}
+.col-35{
+  width: 35%;
+}
+.col-33{
+  width: calc(100%/3);
+}
+
 /* container sizes [big - sm] */
+.container{
+  margin: 0 auto;
+}
+
 .container.big{
   width: 1200px;
-  margin: 0 auto;
   padding: 0 15px;
+}
+.container.sm{
+  width: 1000px;
 }
 
 /* header - main - footer main rules */
@@ -74,22 +94,17 @@ header{
 .big-title{
   font-size: 50px;
 }
-.col-100{
-  width: 100%;
+.hero .col-100{
   margin-bottom: 60px;
-}
-.col-65{
-  width: 65%;
 }
 .col-65 img{
   max-width: 100%;
 }
-.col-35{
+.hero-feature .col-35{
   padding: 0 10px;
-  width: 35%;
   position: relative;
 }
-
+/* icon style */
 .fa-solid{
   font-size: 50px;
   position: absolute;
@@ -97,5 +112,49 @@ header{
   left: 10px;
 }
 
+/* buy now section */
+.row{
+  max-width: 100%;
+}
+.billing-pref{
+  margin-bottom: 80px;
+  font-size: 35px;
+}
+
+/* buy plans */
+.row.buy-plans{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
 
 /* !DEBUG */
+.debug.buy-now{
+  min-height: 500px;
+}
+
+.debug .container{
+  border: 1px solid black;
+  background-color: bisque;
+}
+
+.debug .row{
+  border: 1px dashed rgb(255, 255, 255);
+  background-color: chocolate;
+
+}
+
+.debug .col-100, .debug .col-35, .debug .col-65{
+  background-color: cadetblue;
+  border: 1px dashed greenyellow;
+}
+.debug .col-33{
+  background-color: cornflowerblue;
+  border: 1px dashed greenyellow;
+}
+.debug .row.buy-plans .col-100{
+  min-height: 100px;
+}

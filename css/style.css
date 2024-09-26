@@ -191,6 +191,24 @@ li.no-gutter{
   text-align: center;
 }
 
+.card .btn{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.buy-now{
+  color: var(--btn-bg-color);
+  text-decoration: underline;
+}
+
+.card-body ul>li{
+  font-size: 14px;
+  margin: 18px 0;
+}
+
+.col-100.team-plan{
+  margin: 50px 0;
+}
+
 /* check icon */
 
 
@@ -202,49 +220,18 @@ li.no-gutter{
   flex-direction: column;
   justify-content: flex-start;
 }
-
-.card-body ul>li{
-  margin: 18px 0;
-}
-
 .plan-details li,
 .card-check-list li{
   display: flex;
 }
 
-.card .btn{
-  margin-bottom: 30px;
-  text-align: center;
+.team-plan .card-body{
+  display: flex;
+  flex-direction: row;
 }
-.buy-now{
-  color: var(--btn-bg-color);
-  text-decoration: underline;
-}
+
+
+
 
 
 /* !DEBUG */
-.debug{
-  min-height: 500px;
-}
-
-.debug .container{
-  border: 1px solid black;
- 
-}
-
-.debug .row{
-  border: 1px dashed rgb(255, 255, 255);
-  
-}
-
-.debug .col-100, .debug .col-35, .debug .col-65{
- 
-  border: 1px dashed greenyellow;
-}
-.debug .col-33{
-border: 1px solid blueviolet;
- 
-}
-.debug .row.plans .col-100{
-  min-height: 100px;
-}

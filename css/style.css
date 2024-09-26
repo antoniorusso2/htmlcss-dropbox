@@ -80,7 +80,10 @@ a{
 header{
   padding: 18px 14px;
 }
+section{
+  margin-bottom: 100px;
 
+}
 /* navbar */
 .navbar{
   width: 100%;
@@ -114,7 +117,7 @@ li.no-gutter{
 .hero .col-100{
   margin-bottom: 60px;
 }
-.col-65 img{
+.hero .col-65 img{
   margin-bottom: -75px;
   max-width: 100%;
 }
@@ -164,13 +167,13 @@ li.no-gutter{
   width: 20%;
   border-bottom: 1px solid lightgray;
 }
-.row.buy-plans{
+.row{
   display: flex;
   flex-wrap: wrap;
 }
 
 /* card style */
-.plans [class^=col]{
+[class^=col]{
   padding: 0 25px
 }
 .card{
@@ -209,9 +212,6 @@ li.no-gutter{
   margin: 50px 0;
 }
 
-/* check icon */
-
-
 /* ! card flexbox */
 .card-body{
   padding: 0 20px;
@@ -230,8 +230,11 @@ li.no-gutter{
   flex-direction: row;
 }
 
+/* partners section */
 
-
+.meet-partners img{
+  max-width: 100%;
+}
 
 
 /* !DEBUG */

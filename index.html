@@ -11,11 +11,11 @@
   <title>Dropbox</title>
 </head>
 <body>
-  <header>
+  <header class="main-header">
     <!-- navbar -->
     <nav class="navbar">
       <!-- left side list -->
-      <ul>
+      <ul class="left-nav-list">
         <li class="no-gutter">
           <a class="logo-wrapper" href="">
             <img class="logo-small" src="./img/logo-small.png" alt="">
@@ -39,7 +39,7 @@
       </ul>
 
       <!-- right side list -->
-      <ul>
+      <ul class="right-nav-list">
         <li>
           <a class="nav-link" href="">
             Supporto
@@ -65,13 +65,13 @@
     </nav>
   </header>
 
-  <main>
+  <main class="main-content">
     <!-- hero section -->
     <section class="hero">
       <div class="container big">
         <div class="row big-title">
           <div class="col-100">
-            <h1>
+            <h1 class="hero-title">
               Tutto ciò che ti serve per il lavoro, in un unico posto
             </h1>
           </div>
@@ -110,7 +110,7 @@
           <div class="col-100">
             <h2 class="billing-pref">Trova il piano business che fa per te</h2>
 
-            <!-- ! TODO checkboxes -->
+            <!-- checkbox -->
             <div class="toggle-actions">
               <div class="monthly-bill">
                 <input type="radio" id="weekly-sub" name="Fatturazione Mensile">
@@ -125,6 +125,7 @@
         </div>
 
         <div class="row buy-plans">
+          <!-- card 1 -->
           <div class="col-33">
             <div class="card">
               <div class="card-header">
@@ -134,7 +135,7 @@
                 </span>
               </div>
               <div class="card-body">
-                <div>
+                <div class="plan-type">
                   <h3>
                     Professional
                   </h3>
@@ -150,7 +151,7 @@
                   </li>
                   <li>
                     <i class="fa-solid fa-folder"></i>
-                    <span>5TB spazio di archiviazione</span>
+                    <span>5TB spazio di archiviazione sicuro</span>
                   </li>
                   <li>
                     <i class="fa-solid fa-share-nodes"></i>
@@ -173,10 +174,19 @@
                 </div>
 
                 <!-- ! checked-symbol list -->
-                <ul>
-                  <h3 class="plan-based features">Punti salienti del piano</h3>
-                  <li>Invia file fino a 100GB con Dropbox Transfert</li>
-                  <li>Cartelle offline su dispositivi mobili</li>
+                <ul class="card-check-list">
+                  <h3 class="best-features">
+                    Punti salienti del piano
+                  </h3>
+
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Invia file fino a 100GB con Dropbox Transfert</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>  
+                    <span>Cartelle offline su dispositivi mobili</span>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -184,7 +194,82 @@
 
           <!-- card 2 -->
           <div class="col-33">
-            
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-solid fa-users"></i>
+                <span class="plan-target">
+                  Team
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="plan-type">
+                  <h3>
+                    Advanced
+                  </h3>
+                  <p class="price">18.00 &euro;</p>
+                  <p class="bill-period-info">/utente/mese</p>
+                </div>
+
+                <!-- ! icon list -->
+                <ul class="plan-details">
+                  <li>
+                    <i class="fa-solid fa-user"></i>
+                    <span>3 o più utenti</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-folder"></i>
+                    <span>Tutto lo spazio di cui ha bisogno il tuo team</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                  </li>
+                </ul>
+
+                <div class="trial-buy">
+                  <a class="buy btn" href="#">
+                    Acquista ora
+                  </a>
+
+                  <p>
+                    oppure
+                    <a class="buy-now" href="">acquista ora</a>
+                  </p>
+
+                  <div class="sm-line">
+                    
+                  </div>
+                </div>
+
+                <!-- ! checked-symbol list -->
+                <ul class="card-check-list">
+
+                  <h3 class="best-features">
+                    Punti salienti del piano
+                  </h3>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Nessun limite di spazio per i file</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Cartelle offline su dispositivi mobili</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Risparmio del 50% rispetto alle iscrizioni singole</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Possibilità di inserire nuovi membri del team</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                   <span>Gestione dei permesi in base ai ruoli</span> 
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <!-- card 3 -->
@@ -202,7 +287,6 @@
         </div>
       </div>
     </section>
-    <!-- TODO small container/ title --3 column equal + 4th column 100%-row-width-->
     <!-- TODO small container/ section image+text -->
     <!-- TODO small container/ 6col flex / row of 3 -->
     <!-- TODO section/ some links -->

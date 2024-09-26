@@ -121,6 +121,10 @@ li.no-gutter{
   padding-bottom: 15px;
 }
 
+.fa-check{
+  color: var(--btn-bg-color);
+}
+
 /* buy now section */
 .plans .container.sm{
   margin-top: 150px;
@@ -152,13 +156,15 @@ li.no-gutter{
 .plans [class^=col]{
   padding: 0 25px
 }
-
-.card i{
-  font-size: 14px;
-}
 .card{
+  min-height: 100%;
   border: 1px solid lightgray;
 }
+.card i{
+  font-size: 14px;
+  padding: 5px 5px 0 0;
+}
+
 .card-header{
   padding: 10px 0;
   font-size: 14px;
@@ -166,6 +172,9 @@ li.no-gutter{
   border-bottom: 1px solid lightgray;
   text-align: center;
 }
+
+/* check icon */
+
 
 /* ! card flexbox */
 .card-body{
@@ -179,6 +188,12 @@ li.no-gutter{
 .card-body ul>li{
   margin: 18px 0;
 }
+
+.plan-details li,
+.card-check-list li{
+  display: flex;
+}
+
 .card .btn{
   margin-bottom: 30px;
   text-align: center;
@@ -187,9 +202,6 @@ li.no-gutter{
   color: var(--btn-bg-color);
   text-decoration: underline;
 }
-
-
-
 
 
 /* !DEBUG */

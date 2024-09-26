@@ -37,13 +37,20 @@ a{
   line-height: 34px;
 }
 
+.find-partner.btn{
+  color: black;
+  background-color: white;
+  margin-top: 25px;
+  padding: 10px 8px;
+  line-height: normal;
+}
+
 /* icon style */
 .fa-arrow-down{
   font-size: 50px;
   margin-top: auto;
   padding-bottom: 15px;
 }
-
 .fa-check{
   color: var(--btn-bg-color);
 }
@@ -82,7 +89,6 @@ header{
 }
 section{
   margin-bottom: 100px;
-
 }
 /* navbar */
 .navbar{
@@ -235,6 +241,10 @@ li.no-gutter{
 .meet-partners img{
   max-width: 100%;
 }
+.meet-partners h2{
+  margin-bottom: 25px;
+}
+
 
 
 /* !DEBUG */

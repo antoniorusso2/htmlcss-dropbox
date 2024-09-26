@@ -26,14 +26,16 @@ a{
 
 /* buttons */
 .btn{
+  display: block;
   color: white;
-  padding: 10px 18px;
+  padding: 0px 16px;
+  line-height: 44px;
   background-color: var(--btn-bg-color);
 }
-.btn-marg{
-  margin: 35px 0;
-  display: inline-block;
+.start.btn{
+  line-height: 34px;
 }
+
 
 /* col width */
 .col-100{
@@ -55,16 +57,16 @@ a{
 }
 
 .container.big{
-  width: 1200px;
+  max-width: 1200px;
   padding: 0 15px;
 }
 .container.sm{
-  width: 1000px;
+  max-width: 1000px;
 }
 
 /* header - main - footer main rules */
 header{
-  padding: 30px 18px;
+  padding: 18px 14px;
 }
 
 /* navbar */
@@ -75,7 +77,7 @@ header{
   align-items: center;
 }
 .navbar>ul li{
-  margin: 0 10px;
+ padding : 0 16px;
 }
 .logo-small{
   vertical-align: middle;
@@ -98,21 +100,28 @@ header{
   margin-bottom: 60px;
 }
 .col-65 img{
+  margin-bottom: -100px;
   max-width: 100%;
 }
 .hero-feature .col-35{
-  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
   position: relative;
 }
 /* icon style */
 .fa-solid{
   font-size: 50px;
-  position: absolute;
-  bottom: 15px;
-  left: 10px;
+  margin-top: auto;
+  padding-bottom: 15px;
 }
 
 /* buy now section */
+.buy-now .container.sm{
+  margin-top: 200px;
+}
 .row{
   max-width: 100%;
 }
@@ -120,6 +129,7 @@ header{
   margin-bottom: 80px;
   font-size: 35px;
 }
+
 
 /* buy plans */
 .row.buy-plans{

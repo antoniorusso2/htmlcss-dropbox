@@ -17,7 +17,7 @@
       <!-- left side list -->
       <ul>
         <li>
-          <a class="logo small" href="">
+          <a class="logo-wrapper" href="">
             <img class="logo-small" src="./img/logo-small.png" alt="">
           </a>
         </li>
@@ -111,20 +111,24 @@
             <h2 class="billing-pref">Trova il piano business che fa per te</h2>
 
             <!-- ! TODO checkboxes -->
-            <div class="monthly-bill">
-              <input type="checkbox" id="weekly-sub" name="Fatturazione Mensile"><label for="weekly-sub">Fatturazione Mensile</label>
+            <div class="toggle-actions">
+              <div class="monthly-bill">
+                <input type="radio" id="weekly-sub" name="Fatturazione Mensile">
+                <label for="weekly-sub">Fatturazione Mensile</label>
+              </div>
+              <div class="weekly-bill">
+                <input type="radio" id="monthly-sub" name="Fatturazione Mensile">
+                <label for="monthly-sub">Fatturazione Mensile</label>
+              </div> 
             </div>
-            <div class="weekly-bill">
-              <input type="checkbox" id="monthly-sub" name="Fatturazione Mensile">
-              <label for="monthly-sub">Fatturazione Mensile</label>
-            </div> 
           </div>
+        </div>
 
-          <div class="row buy-plans">
-            <div class="col-33">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel in perspiciatis tenetur omnis, ducimus, fugiat quam eos optio reiciendis recusandae labore vero earum dignissimos quidem, inventore eum dolores! Repudiandae, nesciunt!
-              </p>
+        <div class="row buy-plans">
+          <div class="col-33">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel in perspiciatis tenetur omnis, ducimus, fugiat quam eos optio reiciendis recusandae labore vero earum dignissimos quidem, inventore eum dolores! Repudiandae, nesciunt!
+            </p>
 
               <a class="buy btn btn-marg" href="#">
                 Acquista ora
@@ -133,19 +137,17 @@
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorum neque fugiat corporis molestias, iure illum quas provident officiis perspiciatis totam perferendis sapiente quasi amet recusandae, veritatis aperiam ipsa repellendus.
               </p>
-            </div>
-            <div class="col-33">
-              col 33%
-            </div>
-            <div class="col-33">
-              col 33%
-            </div>
+          </div>
+          <div class="col-33">
+            col 33%
+          </div>
+          <div class="col-33">
+            col 33%
+          </div>
 
-            <div class="col-100">
-              col 100%
-            </div>
-        </div>
-      
+          <div class="col-100">
+            col 100%
+          </div>
         </div>
       </div>
     </section>

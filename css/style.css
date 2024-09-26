@@ -37,13 +37,22 @@ h4{
 /* custom properties*/
 :root{
   --btn-bg-color: #0061ff;
+  --hero-bg:#B4D0E7;
   --greytext: #a3b0b9;
   --designit-brand: #A2D39B;
   --asu-brand: #61082B;
+  --title-brown: #610a2c;
+  --world-bycicle-bg: #D5001F;
+  --topps-bg: #FF1C1C;
+  --uf-florida-bg: #0093CE;
+  --lonely-point-bg: #0D2481;
+  --clear-ch-bg: #FFD830;
+  --harst-bg: #B4D0E7;
 }
 
 /* buttons */
 .btn{
+  text-align: center;
   display: block;
   color: white;
   padding: 0px 16px;
@@ -53,13 +62,16 @@ h4{
 .start.btn{
   line-height: 34px;
 }
-
 .find-partner.btn{
   color: black;
   background-color: white;
   margin-top: 25px;
   padding: 10px 8px;
   line-height: normal;
+}
+.btn.white-bg{
+  background-color: white;
+  color: black;
 }
 
 /* icon style */
@@ -127,7 +139,7 @@ li.no-gutter{
 /* hero section */
 .hero{
   padding-top: 60px;
-  background-color: #B4D0E7;
+  background-color: var(--hero-bg);
 }
 .hero .row{
   display: flex;
@@ -270,15 +282,7 @@ li.no-gutter{
   font-size: 35px;
 }
 
-/* brand stripe section */
-
-/* .best-users .container{
-  height: 630px;
-} */
-/* .brand-wrap{
-  min-width: 50%;
-  min-height: 50%;
-} */
+/* brands section */
 .col-33.brands{
   height: 100%;
   display: flex;
@@ -315,5 +319,22 @@ li.no-gutter{
 .brand-text{
   font-size: 16px;
   margin: 40px 0;
+}
+
+/* free trial blue-bg row */
+.best-users{
+  margin: 0;
+}
+.col-65 .title-brown{
+  font-size: 30px;
+  color: var(--title-brown);
+}
+
+.free-trial-row .col-65, 
+.free-trial-row .col-35{
+  padding: 120px 25px;
+}
+.free-trial-row{
+  background-color: var(--hero-bg);
 }
 /* !DEBUG */

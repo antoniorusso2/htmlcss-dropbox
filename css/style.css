@@ -100,7 +100,7 @@ header{
   margin-bottom: 60px;
 }
 .col-65 img{
-  margin-bottom: -100px;
+  margin-bottom: -75px;
   max-width: 100%;
 }
 .hero-feature .col-35{
@@ -119,8 +119,8 @@ header{
 }
 
 /* buy now section */
-.buy-now .container.sm{
-  margin-top: 200px;
+.plans .container.sm{
+  margin-top: 150px;
 }
 .row{
   max-width: 100%;
@@ -132,39 +132,51 @@ header{
 
 
 /* buy plans */
+.sm-line{
+  margin-top: 40px;
+  width: 20%;
+  border-bottom: 1px solid lightgray;
+}
 .row.buy-plans{
   display: flex;
   flex-wrap: wrap;
 }
 
+/* card style */
+.card-body>*{
+  padding: 20px 20px;
+}
+.buy-now{
+  color: var(--btn-bg-color);
+  text-decoration: underline;
+}
 
 
 
 
 /* !DEBUG */
-.debug.buy-now{
+.debug{
   min-height: 500px;
 }
 
 .debug .container{
   border: 1px solid black;
-  background-color: bisque;
+ 
 }
 
 .debug .row{
   border: 1px dashed rgb(255, 255, 255);
-  background-color: chocolate;
-
+  
 }
 
 .debug .col-100, .debug .col-35, .debug .col-65{
-  background-color: cadetblue;
+ 
   border: 1px dashed greenyellow;
 }
 .debug .col-33{
-  background-color: cornflowerblue;
-  border: 1px dashed greenyellow;
+border: 1px solid blueviolet;
+ 
 }
-.debug .row.buy-plans .col-100{
+.debug .row.plans .col-100{
   min-height: 100px;
 }

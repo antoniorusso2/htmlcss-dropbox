@@ -38,6 +38,8 @@ h4{
 :root{
   --btn-bg-color: #0061ff;
   --greytext: #a3b0b9;
+  --designit-brand: #A2D39B;
+  --asu-brand: #61082B;
 }
 
 /* buttons */
@@ -268,5 +270,50 @@ li.no-gutter{
   font-size: 35px;
 }
 
+/* brand stripe section */
 
+/* .best-users .container{
+  height: 630px;
+} */
+/* .brand-wrap{
+  min-width: 50%;
+  min-height: 50%;
+} */
+.col-33.brands{
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.best-users .row{
+  height: 600px;
+}
+.brand-wrap{
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+}
+.brand-logo{
+  max-width: 180px;
+  display: block;
+  margin: auto;
+}
+.brand-wrap.title{
+  padding: 20px 40px;
+  display: block;
+  width: 100%;
+  min-height: 100%;
+}
+.brand-wrap.title img{
+  max-width: 250px;
+}
+
+.brand-text{
+  font-size: 16px;
+  margin: 40px 0;
+}
 /* !DEBUG */

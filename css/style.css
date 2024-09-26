@@ -218,7 +218,7 @@ li.no-gutter{
   margin-bottom: 30px;
   text-align: center;
 }
-.buy-now{
+.buy-now, .base-anch{
   color: var(--btn-bg-color);
   text-decoration: underline;
 }
@@ -262,5 +262,11 @@ li.no-gutter{
 .features-description{
   margin-bottom: 45px;
 }
+
+/* users link and title */
+.dropbox-users h3{
+  font-size: 35px;
+}
+
 
 /* !DEBUG */
